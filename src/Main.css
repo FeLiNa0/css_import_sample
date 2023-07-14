@@ -1,0 +1,19 @@
+/* names: CSS imports, import at-rules, import statements */
+/* Load foundational stuff first */
+/* These files apply to every HTML in your entire site */
+@import url("./Foundations_Building_Blocks.css");
+/* Minimal CSS fixes: @import url("https://unpkg.com/mvp.css"); */
+/* Try looking at it with or without this line (or other lines) */
+@import url("https://unpkg.com/mvp.css");
+/* Bootstrap is an old CSS framework with a larger filesize and many design features */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"); */
+
+/* Load stuff for each type of webpage */
+/* The CSS here is expected to only affect the homepage */
+@import url("./Blog_Homepage.css");
+/* The CSS here is expected to only affect the blog post */
+@import url("./Blog_Post.css");
+
+body {
+  background: blue;
+}

@@ -1,0 +1,5 @@
+/* The CSS here is expected to only affect the homepage */
+
+.homepage p {
+  background: red;
+}
